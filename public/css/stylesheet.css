@@ -1,21 +1,46 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	}
+  /* all:unset; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
 
-html {
-	height: 2000px;
-	background-color: red;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg);
-	background-size: 100% auto;
-	background-position: top center;
-	background-attachment: fixed;
-	}
+ol,
+ul {
+  list-style: none;
+}
 
-body {
-	height: 100%;
-	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
-	background-size: 100% 100%;
-	mix-blend-mode: difference;
-	}
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
+/* ==============================================
+-  hero-body
+============================================== */
+
+.hero-body {
+  background-image: url("../assets/images/black-wood.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* ==============================================
+-  navbar
+============================================== */
+
+nav {
+  background: inherit !important;
+  transition: 0.5s ease-in;
+  box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.308);
+}
+
+
+/* ==============================================
+-  navbar
+============================================== */
