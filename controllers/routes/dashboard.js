@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 //dashboard
-router.get("/dashboard", async (req, res) => {
+router.get("/", async (req, res) => {
   
   res.render("dashboard");
 });
