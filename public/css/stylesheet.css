@@ -54,6 +54,7 @@ html.ios body {
   color: whitesmoke;
 }
 
+
 /* ==============================================
 -  navbar
 ============================================== */
@@ -84,13 +85,13 @@ nav {
 }
 
 
-.mainCards{
+/* .mainCards{
   background: url("/assets/projects/Orange-Cab.jpg");
   background-position: center;
   background-size: cover;
   height: 200px;
   width: 45vw;
-}
+} */
 
 
 /* ==============================================
