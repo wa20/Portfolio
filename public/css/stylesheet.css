@@ -23,17 +23,6 @@ html.ios body {
   height: initial !important;
 }
 
-*{
-
-  -moz-background-size: cover;
-  
-  -o-background-size: cover;
-  
-  -webkit-background-size: cover;
-  
-  }
-  
-  
 
 /* ==============================================
 -  hero-body
@@ -47,13 +36,16 @@ html.ios body {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.541);
 }
 
-.section{
+.background {
   background-image: url("../assets/images/circuit-board.jpg");
   background-position: center;
   background-size: cover;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 
+.raised {
+  background: inherit;
+}
 
 /* ==============================================
 -  navbar
@@ -74,16 +66,14 @@ nav {
   box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.308);
 }
 
-
 /* ==============================================
 -  profile  
 ============================================== */
-.profile{
+.profile {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 /* .mainCards{
   background: url("/assets/projects/Orange-Cab.jpg");
@@ -93,72 +83,44 @@ nav {
   width: 45vw;
 } */
 
-
 /* ==============================================
 -  my-work: top half
 ============================================== */
-.gridTop{
+.gridTop {
   display: grid;
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-row-gap: 1rem;
-  grid-column-gap:1rem ;
-  margin:1rem;
+  grid-column-gap: 1rem;
+  margin: 1rem;
 }
 
 /* ==============================================
 -  cards - top half
 ============================================== */
-.card3{
+.card3 {
   background-position: center;
   background-size: cover;
   height: 250px;
 }
 
-
 /* ==============================================
--  my-work: 
+-  my-work: bottom half
 ============================================== */
 
-
-
-
-
-
-/* ==============================================
--  card
-============================================== */
-
-
-
-
-/* .girdBox {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: repeat(6, 200px);
-  grid-gap: 1rem;
-  grid-auto-flow: dense;
-} */
-
-
-
-/*=========
-6 - Mosiac Container (grid-boxes)
-=========*/
-
-.gridBottom{
+.gridBottom {
   display: grid;
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-row-gap: 1rem;
-  grid-column-gap:1rem ;
-  max-height: 450px;
+  grid-column-gap: 1rem;
+  max-height: 270px;
   overflow: auto;
-  margin:1rem;
+  margin: 1rem;
+  margin-top: 2rem;
   /* background-image: url("../assets/images/circuit-board.jpg");
   background-position: center;
   background-size: cover; */
 }
-
